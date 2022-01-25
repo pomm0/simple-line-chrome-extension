@@ -1,0 +1,12 @@
+{
+  "name": "Simple lines",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to activate extension"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
